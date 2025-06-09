@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Header</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+  <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="conf.css">
+  <style>
+    .top-header {
+      background: #fff;
+      padding: 10px 0;
+    }
+
+    .theme-menu-wrapper {
+      background-color: #031b4e;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #ccc;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- jQuery (Required by Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+<header class="header-one" style="position: relative ; z-index: 1;">
+
+  <div class="top-header" style="padding: 40px 0px 32px;" >
+    <div class="container">
+      <div class="row align-items-center text-center  ">
+
+        <div class="col-lg-3 col-md-12 mb-2 mb-lg-0 i" >
+          <a href="#" class="navbar-brand d-flex align-items-center justify-content-center justify-content-lg-start">
+            <img src="images/authrntic.png " alt="Logo">
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-md-12 mb-2 mb-lg-0">
+          <div class="row" >
+            <div class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-start ">
+              <i class="bi bi-geo-alt me-2 fs-30   " style="margin-left: 20px; font-size: 40px; color: #031b4e;"></i>
+              <div style="margin-left: 20px;">
+                <strong style="font-size: 20px; font-family: sans-serif; color: #031b4e; margin-left: -92px;  ">Address:</strong><br>
+                2A0, Queenstown St, USA
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-start">
+              <i class="bi bi-envelope me-2 fs-30" style="margin-left: 49px; font-size: 40px; color: #031b4e;"></i>
+              <div style="margin-left: 49px;">
+                <strong style="font-size: 20px; font-family: sans-serif ; color: #001648; margin-left: -86px;">Mail us:</strong><br>
+                supporthere@mail.com
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12 d-flex justify-content-center justify-content-lg-end">
+          <a href="#" class="btn custom-button">GET A QUOTES</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-2 pb-2">
+    <div class="container px-5 py-2 " style="background-color: #031b4e;">
+      <nav class="navbar navbar-expand-lg navbar-dark position-relative " >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 vv">
+  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#home">Home  </a></li>
+  
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#pages" role="button" data-bs-toggle="dropdown">Pages</a>
+
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#about">About  </a></li>
+      <li><a class="dropdown-item" href="#team">Team</a></li>
+    </ul>
+  </li>
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#service" role="button" data-bs-toggle="dropdown">Service</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#service-v1">Service Version One</a></li>
+      <li><a class="dropdown-item" href="#service-v2">Service Version Two</a></li>
+      <li><a class="dropdown-item" href="#service-details">Service Details</a></li>
+    </ul>
+  </li>
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#portfolio" role="button" data-bs-toggle="dropdown">Portfolio</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#portfolio-v1">Portfolio One</a></li>
+      <li><a class="dropdown-item" href="#portfolio-v2">Portfolio Two</a></li>
+    </ul>
+  </li>
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#blog" role="button" data-bs-toggle="dropdown">Blog</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#blog-list">Blog List</a></li>
+      <li><a class="dropdown-item" href="#blog-single">Blog Single</a></li>
+    </ul>
+  </li>
+
+  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+
+         
+          <div class="d-flex align-items-center gap-3 text-white">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-cart"></i>
+            <i class="bi bi-search"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+</header>
+
+<section class=" contact-section d-flex align-items-center " style="margin-top: -50px; padding-top: 20px z-index;;">
+  <div class="container">
+    <div class="subheading custom  ">
+
+      The Government they survive of fortune
+    </div>
+    <div>
+      <h1 class="custom  fw-bold display-2  custom ">
+        WE IMPROVE YOUR
+        <br>
+        SALES EFFICIENCY
+        
+
+      </h1>
+    </div>
+    <div class="custom-button mb-4 mt-4">
+      Contact US
+
+
+    </div>
+  </div>
+  
+</section>
+
+<section>
+
+  <section class="features-section">
+  <div class="container-fluid px-0">
+    <div class="row text-center">
+      <div class="col-sm border p-4">
+        <img src="images/emerg.png" alt="Icon 1">
+        <h4>Thought Leadership</h4>
+        <p>The east side to a deluxe apartment in move on up to the east side</p>
+      </div>
+      <div class="col-sm border p-4">
+        <img src="images/marketing.png" alt="Icon 2">
+        <h4>Marketing Goals</h4>
+        <p>The east side to a deluxe apartment in move on up to the east side</p>
+      </div>
+      <div class="col-sm border p-4" >
+        <img src="images/consumer.png" alt="Icon 3">
+        <h4>Consumer Insights</h4>
+        <p>The east side to a deluxe apartment in move on up to the east side</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="mb-5 py-5">
+  <div class="container">
+    <div class="row align-items-center">
+     
+      <div class="col-md-6">
+        <img src="images/jj.jpg" alt="About Image" class="img-fluid rounded">
+      </div>
+
+      
+
+<div class="col-md-6  ">
+  <h2 class="fw-bold mb-3  mt-3">ABOUT OUR COMPANY</h2>
+  <p id="font" class="">
+    A tale of a fateful trip that started from this tropic port aboard this tiny ship today still wanted by the government they survive as soldiers of fortune to a deluxe apartment in the sky moving on up to the east side a family.
+  </p>
+  <p id="font">
+    The government they survive as soldiers of fortune baby if you've ever wondered the east side to a deluxe apartment.
+  </p>
+
+ 
+  <div class="row text-center border-top pt-4 ">
+    <div class="col-4 border p-4">
+      <i class="bi bi-star fs-1 mb-2"></i>
+      <h6 class="fw-bold">Vision</h6>
+    </div>
+    <div class="col-4 border p-4">
+      <i class="bi bi-award fs-1 mb-2"></i>
+      <h6 class="fw-bold">Missions</h6>
+    </div>
+    <div class="col-4 border p-4">
+      <i class="bi bi-bullseye fs-1 mb-2"></i>
+      <h6 class="fw-bold">Goals</h6>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">OUR SERVICES</h2>
+      <p class="text-center text-muted mb-5">
+        A tale of a fateful trip that started from this tropic port aboard this tiny ship today stillers
+      </p>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+        <div class="col">
+          <div class="d-flex shadow-sm bg-white rounded overflow-hidden" style="height: 160px;">
+            <img src="images/1.jpg" alt="Business Services" style="width: 120px; height: 100%; object-fit: cover;">
+            <div class="p-3 mt-3">
+              <h5 class="fw-semibold mb-1 mt-2">Business Services</h5>
+              <p class="text-muted mb-3">The tiny ship today stiller</p>
+              
+              <a href="#" class="fw-semibold text-decoration-none" style="color: #303c7f;">READ MORE &gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex shadow-sm bg-white rounded overflow-hidden" style="height: 160px;">
+            <img src="images/2.jpg" alt="Consumer Product" style="width: 120px; height: 100%; object-fit: cover;">
+            <div class="p-3 mt-3">
+              <h5 class="fw-semibold mb-1 mt-2">Consumer Product</h5>
+              <p class="text-muted mb-3">The tiny ship today stiller</p>
+              
+              <a href="#" class="fw-semibold text-decoration-none" style="color: #303c7f;">READ MORE &gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex shadow-sm bg-white rounded overflow-hidden" style="height: 160px;">
+            <img src="images/3.jpg" alt="Financial Services" style="width: 120px; height: 100%; object-fit: cover;">
+            <div class="p-3 mt-3">
+              <h5 class="fw-semibold mb-1 mt-2">Financial Services</h5>
+              <p class="text-muted mb-3">The tiny ship today stiller</p>
+              
+              <a href="#" class="fw-semibold text-decoration-none" style="color: #303c7f;">READ MORE &gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex shadow-sm bg-white rounded overflow-hidden" style="height: 160px;">
+            <img src="images/t.jpg" alt="Travel and Aviation" style="width: 120px; height: 100%; object-fit: cover;">
+            <div class="p-3 mt-3">
+              <h5 class="fw-semibold mb-1 mt-2">Travel and Aviation</h5>
+              <p class="text-muted mb-3">The tiny ship today stiller</p>
+              
+
+              <a href="#" class="fw-semibold text-decoration-none" style="color: #303c7f;">READ MORE &gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex shadow-sm bg-white rounded overflow-hidden" style="height: 160px;">
+            <img src="images/5.jpg" alt="Software Research" style="width: 120px; height: 100%; object-fit: cover;">
+            <div class="p-3 mt-3">
+              <h5 class="fw-semibold mb-1 mt-2">Software Research</h5>
+              <p class="text-muted mb-3">The tiny ship today stiller</p>
+              
+              <a href="#" class="fw-semibold text-decoration-none" style="color: #303c7f;">READ MORE &gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex shadow-sm bg-white rounded overflow-hidden" style="height: 160px;">
+            <img src="images/6.jpg" alt="Quality Resourcing" style="width: 120px; height: 100%; object-fit: cover;">
+            <div class="p-3 mt-3">
+              <h5 class="fw-semibold mb-1 mt-2">Quality Resourcing</h5>
+              <p class="text-muted mb-3">The tiny ship today stiller</p>
+              
+              <a href="#" class="fw-semibold text-decoration-none" style="color: #303c7f;">READ MORE &gt;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <br>
+  
+
+  
+
+
+
+
+
+
+
+
+     
+  <div class="text-center mt-5">
+  <p class="fs-4 fw-light" style="font-family: 'Source Sans Pro', sans-serif ; color: #555555;">
+    You can also send us an email and we’ll get in touch shortly, or Call us
+  </p>
+  <a href="mailto:info@support.com" class="fs-4 text-decoration-underline" style="color: #0d3c84; font-family: 'Poppins', sans-serif; font-size: 22px;">
+    info@support.com
+  </a>
+  <a class="fs-4 text-decoration-underline" style="font-family: 'Poppins', sans-serif; color: #0d3c84;"> (or) +1 234 6780 900</a>
+</div>
+
+
+     
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container text-center">
+  <h2 class="fw-bold mt-3 mb-2 decorated-title">OUR TEAM</h2>
+
+</div>
+<br>
+
+      <p class="text-center mb-4 mt-n2  " style="font-size: large;">
+        A tale of a fateful trip that started from this tropic port aboard this tiny ship today stillers
+        
+
+
+
+      </p>
+      <br>
+      <div class="container text-center ">
+  <div class="row">
+    <div class="col">
+      
+        <div class="imagebox  bg-white rounded ">
+          <div class="position-relative team-member">
+            <img src="images/ff.jpg" alt="" style="height: 286px; width: 306px;">
+              <div class="team-overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-2">
+            <div class="social-icons mb-2">
+              <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-pinterest"></i></a>
+            </div>
+              <p class="mb-0">The government they survive as soldiers of fortune.</p>
+
+            </div>
+          </div>
+            <div class="text-center border pt-3 pb-3">
+              
+              <h5 class="mb-1 fw-bold">Richard Mills</h5>
+              <p class="fst-italic text-muted mb-0">
+                Sales Consultant
+              </p>
+
+            </div>
+         
+
+        
+        </div>
+
+      
+    </div>
+
+
+    <div class="col">
+  <div class="imagebox bg-white rounded overflow-hidden">
+    <div class="position-relative team-member">
+      <img src="images/v.jpg" alt="Mike Hussey" style="height: 286px; width: 306px;">
+      <div class="team-overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-2">
+        <div class="social-icons mb-2">
+          <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-pinterest"></i></a>
+        </div>
+        <p class="mb-0">The government they survive as soldiers of fortune.</p>
+      </div>
+    </div>
+    <div class="text-center border pt-3 pb-3">
+      <h5 class="mb-1 fw-bold">Mike Hussey</h5>
+      <p class="fst-italic text-muted mb-0">Founder, CEO</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="imagebox bg-white rounded overflow-hidden">
+    <div class="position-relative team-member">
+      <img src="images/b.jpg" alt="Jenelia D'sosa" style="height: 286px; width: 306px;">
+      <div class="team-overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-2">
+        <div class="social-icons mb-2">
+          <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-pinterest"></i></a>
+        </div>
+        <p class="mb-0">The government they survive as soldiers of fortune.</p>
+      </div>
+    </div>
+    <div class="text-center border pt-3 pb-3">
+      <h5 class="mb-1 fw-bold">Jenelia D’sosa</h5>
+      <p class="fst-italic text-muted mb-0">Marketing Lead</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="imagebox bg-white rounded overflow-hidden">
+    <div class="position-relative team-member">
+      <img src="images/n.jpg" alt="David Warner" style="height: 286px; width: 306px;">
+      <div class="team-overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-2">
+        <div class="social-icons mb-2">
+          <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-pinterest"></i></a>
+        </div>
+        <p class="mb-0">The government they survive as soldiers of fortune.</p>
+      </div>
+    </div>
+    <div class="text-center border pt-3 pb-3">
+      <h5 class="mb-1 fw-bold">David Warner</h5>
+      <p class="fst-italic text-muted mb-0">SEO Analyst</p>
+    </div>
+  </div>
+</div>
+  </div>
+      </div>
+</section>
+<br><br><br><br>
+
+
+    
+ 
+
+<section class=" dot  py-5 pt-5  bg-light">
+  <div class="container  " style="max-width: none;">
+
+    
+    <div class=" text-center text-dark">
+      <h5 class="fw-medium custom "  >COMPANY SUCCESS </h5>
+      <h2  style="font-size: 40px;">
+        Some fun facts about our consulting
+      </h2>
+    </div>
+
+   
+    <section id="statistic" class="statistic-section one-page-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                 
+                        <h2 class="timer count-title count-number">30+</h2>
+                        <p class="down">
+                          Years of Experience
+                        </p>
+                        <div class="stats-line-black"></div>
+                        
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                  
+                        <h2 class="timer count-title count-number">100%
+                          <p class="down">
+                            Client Satisfaction
+                          </p>
+                        </h2>
+                        <div class="stats-line-black"></div>
+                       
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                   
+                        <h2 class="timer count-title count-number">53k</h2>
+                        <p class="down">
+                          Cases Completed
+                        </p>
+                        <div class="stats-line-black"></div>
+                      
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                       
+                        <h2 class="timer count-title count-number">24</h2>
+                        <p class="down">
+                          Consultants
+                        </p>
+                        <div class="stats-line-black"></div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+    <div class="text-center mt-4">
+      <a href="#" class="btn custom-button1" style="margin-top: -7px;">VIEW CASE STUDIES</a>
+    </div>
+  </div>
+</section>
+<br><br>
+
+
+
+<section>
+
+
+  <div class="container mb-5">
+    <div class="text-center" >
+
+            <h2 class=" fw-bold decorated-title mt-2 ">FREE CONSULTATION</h2>
+            
+
+            <P class="text-center font fst-italic mb-2 " style="font-size: larger;color: gray;">
+              A tale of a fateful trip that started from this tropic port aboard this tiny ship today stillers
+
+
+            </P>
+
+
+    </div >
+    <br><br>
+     <div class="container ">
+    <div class="row g-0 align-items-stretch shadow rounded ">
+      
+
+      <div class="col-md-4">
+        <img src="images/10.jpg" class="img-fluid rounded shadow-sm object-fit-cover" style="height: 493px; width: 490px; ;" alt="Businessman">
+      </div>
+
+      <div class="col-md-8">
+        <div class="bg-white p-4 p-md-5 shadow rounded">
+          <form>
+            <div class="row g-4">
+        
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="name" placeholder="Name" required>
+                  <label for="name">Name *</label>
+                </div>
+              </div>
+
+    
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="phone" placeholder="Phone" required>
+                  <label for="phone">Phone *</label>
+                </div>
+              </div>
+
+              
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  <label for="email">Email *</label>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <select class="form-select" id="service" required>
+                    <option selected disabled>Choose a service</option>
+                    <option value="consulting">Consulting</option>
+                    <option value="strategy">Strategy</option>
+                    <option value="marketing">Marketing</option>
+                  </select>
+                  <label for="service">Service you’re looking for?</label>
+                </div>
+              </div>
+
+            
+              <div class="col-12">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Message" id="message" style="height: 120px"></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+
+              <div class="col-12 text-start">
+                <button type="submit" class="btn custom-button1 px-4 py-2">GET A QUOTES</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+
+
+
+    </section>
+
+
+    <section>
+
+
+      <div class="container">
+  <div class="row">
+    <div class="col-md-3 hi" >
+      <h6>  OUR<br>  PARTNERS</h6>
+    </div>
+    <div class="col-md-9 overflow-hidden  im">
+      <div class="owl-carousel owl-theme partner-carousel d-flex align-items-center">
+        <img src="images/auth.png" alt="Logo" class="partner-logo mx-3">
+        <img src="images/bear.png" alt="Logo" class="partner-logo mx-3">
+        <img src="images/hor.png" alt="Logo" class="partner-logo mx-3">
+        <img src="images/bus.png" alt="Logo" class="partner-logo mx-3">
+                <img src="images/bus1.png" alt="Logo" class="partner-logo mx-3">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+</section>
+<br>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"> 
+   
+
+  </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  
+<script>
+
+  $(document).ready(function(){
+    $('.partner-carousel').owlCarousel({
+      loop: true,
+      margin: 30,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      responsive:{
+        0:{ items:2 },
+        768:{ items:3 },
+        992:{ items:5 }
+      }
+    });
+  });
+</script>
+<script>
+
+
+   $(document).ready(function($) {
+        $('.count-number').counterUp({
+            delay: 10,
+            time: 10000
+        });
+ });
+</script>
+
+
+
+
+
+
+
+    <section>
+
+      <div class="container">
+        <div class="d-flex" style="color: #031b4e;">
+          
+
+
+        </div>
+
+      </div>
+
+
+
+
+    </section>
+
+    <style>
+  input::placeholder {
+    color: grey;
+  }
+</style>
+
+
+
+<section class="text-white pt-4 pb-4 py-5 px-5" style="background-color: #001648;">
+  <div class="container">
+    <div class="row h5space">
+
+
+      <div class="col-md-4 mt-4">
+        <h5 class="mb-3">ABOUT OUR CONSULTING</h5>
+        
+        <p  style="font-size: 17px; color: #9ca6bf;">
+          That started from this tropic port aboard this tiny ship today still want by theam government they survive on up to thetre east side to a deluxe as soldiers of artics fortune.
+        </p>
+        <br>
+        <p class="mt-3" style="font-size: 17px; color: #fff;">
+          <i class="bi bi-telephone" ></i> Any Queries: (+1) 234 567 900
+        </p>
+      </div>
+
+
+      <div class="col-md-3 mt-4 ms-auto">
+        <h5 class="mb-3">RECENT POSTS</h5>
+        
+
+        <div class="d-flex mb-3">
+          <img src="images/ss.jpg" class="me-3 rounded" style="height:70px ; width:70px ;" alt="Post Image" width="50">
+          <div>
+            <p class="mb-1 small" style=" font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: 24px;
+  margin-top: -5px;">Till wanted by theam govern they survive as soldiers.</p>
+            <small style="font-size: 17px; font-style: italic; color: #9ca6bf;"><i class="far fa-calendar-alt me-1"></i>Feb 06, 2018</small>
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <img src="images/cc.jpg" class="me-3 rounded" style="height: 70px; width: 70px;" alt="Post Image" width="50">
+          <div>
+            <p class="mb-1 small" style=" font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: 24px;
+  margin-top: -5px;">World don't move to beat of just one drum.</p>
+            <small style="font-size: 17px; font-style: italic; color:#9ca6bf"><i class="far fa-calendar-alt me-1"></i>Mar 20, 2018</small>
+          </div>
+        </div>
+      </div>
+
+   
+      <div class="col-md-2 mt-4">
+        <h5 class="mb-3">SOLUTIONS</h5>
+        
+        <ul class="ps-3 mt-2 mbli  " style="font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: #9ca6bf;">
+          <li>Travel and Aviation</li>
+          <li>Business Services</li>
+          <li>Consumer Products</li>
+          <li>Financial Services</li>
+          <li>Software Research</li>
+          <li>Quality Resourcing</li>
+        </ul>
+      </div>
+
+   
+   <div class="col-md-3 mt-4">
+  <h5 class="mb-3">NEWSLETTER</h5>
+  
+  <form>
+    <div class="mb-3">
+      <input type="text" class="form-control newsletter-input" placeholder="Name *" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control newsletter-input" placeholder="Email *" required>
+    </div>
+    <br>
+    <button type="submit" class="btn custom-button">SUBSCRIBE</button>
+  </form>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+<section style="background-color: #001648;">
+  <div class="text-white border-top border-secondary py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+          © Copyrights 2018. All Rights Reserved.
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="#" class="text-white text-decoration-none me-3">About</a>
+          <a href="#" class="text-white text-decoration-none me-3">Solutions</a>
+          <a href="#" class="text-white text-decoration-none me-3">FAQ’s</a>
+          <a href="#" class="text-white text-decoration-none">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+   
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
